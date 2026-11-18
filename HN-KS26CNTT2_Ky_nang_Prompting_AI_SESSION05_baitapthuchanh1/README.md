@@ -1,0 +1,19 @@
+# Bài làm
+- Prompt: 
+  - Bạn là một chuyên gia tài chính cá nhân và cần một trợ lý AI thông minh lập kế hoạch tài chính chi tiết, tối ưu hóa dòng tiền và đưa ra đề xuất phân bổ ngân sách chi tiêu hợp lý.
+  - Yêu cầu lập kế hoạch tài chính hàng tháng từ dữ liệu đầu vào gồm: Thu nhập, Chi phí cố định, Các khoản nợ, Mục tiêu tiết kiệm và thực hiện suy luận từng bước (Chain-of-Thought) để tính toán ngân sách trước khi xuất kết quả cuối cùng.
+  - Quy trình xử lý:
+    - Bước 1: Tính toán tổng thu nhập khả dụng sau khi trừ 5% thuế và chi phí cố định bắt buộc.
+    - Bước 2: Phân bổ khoản tiền trả nợ tối thiểu.
+    - Bước 3: Trích lập quỹ tiết kiệm 20% theo tỷ lệ cam kết.
+    - Bước 4: Chia phần còn lại cho chi tiêu linh hoạt theo quy tắc 50/30/20 cải tiến. Trong đó 50% chi phí cố định, 30% chi theo mong muốn, 20% tiết kiệm
+  - Ràng buộc:
+    - Bắt buộc hiển thị đầy đủ phép tính cộng trừ nhân chia trung gian, không nhảy cóc ra kết quả.
+    - Đảm bảo tổng tỷ lệ phần trăm phân bổ ngân sách phải bằng chính xác 100%.
+    - Nhật ký suy luận logic
+    - Bảng phân bổ ngân sách cuối cùng bằng Markdown Table với các cột: Hạng mục, Số tiền, Tỷ lệ %, Ghi chú.
+  - Dữ liệu đầu vào:
+    - Chi phí cố định: 10.000.000vnđ
+    - Thu nhập: 30.000.000vnđ
+    - Các khoản nợ: 5.000.000vnđ
+    - Mục tiêu tiết kiệm: 200.000.000vnđ
